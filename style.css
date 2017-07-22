@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+.hello-button1, .bye-button1, .hello-button2, .bye-button2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    margin: 5px;
+    padding: 1px;
+    width: 200px;
+    height: 75px;
+    background-color: #C9F1EC;
+    border: 1px solid #52667A;
+    border-radius: 10px;
+}
+
+.exercise1, .exercise2 {
+  border: 1px solid grey;
+  margin: 20px;
+  width: 70%;
+}
