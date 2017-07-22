@@ -28,26 +28,17 @@ const prueba2 = new Button('.bye-button1','Adios', 'heart');
 // sea del color de la propiedad color:
 
 class redButton extends Button{
-  constructor(element, text, icon){
+  constructor(element, text, icon, color){
     super(element,text, icon);
-      this.element.style.color = "red";
+    this.color = color;
+    this.render();
+  }
+  render(){
+    this.element.style.color = this.color;
+    super.render();
   }
 }
-const prueba3 = new redButton('.hello-button2','Love music', 'music');
-const prueba4 = new redButton('.bye-button2','Love tree', 'tree');
 
-//Otra frma de hacerlo sería:
-//Aunque habría que revisar los render. Los realiza dos veces
 
-// class RedButton extends Button{
-//   constructor(element, text, icon, color){
-//     super(element,text,icon);
-//     this.color = color;
-//     this.render();
-//   }
-//
-//   render(){
-//     super.render();
-//     this.element.style.color = `${this.color}`;
-//   }
-// }
+const prueba3 = new redButton('.hello-button2','Love music', 'music','red');
+const prueba4 = new redButton('.bye-button2','Love nature', 'tree','blue');

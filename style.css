@@ -6,7 +6,7 @@ body {
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
-.hello-button1, .bye-button1, .hello-button2, .bye-button2 {
+.hello-button1, .bye-button1, .hello-button2, .bye-button2, .hello-button3, .bye-button3 {
     font-family: 'Playfair Display', serif;
     font-size: 1em;
     margin: 5px;
@@ -18,8 +18,9 @@ body {
     border-radius: 10px;
 }
 
-.exercise1, .exercise2 {
+.exercise1, .exercise2, .exercise3 {
   border: 1px solid grey;
   margin: 20px;
+  padding: 5px;
   width: 70%;
 }
